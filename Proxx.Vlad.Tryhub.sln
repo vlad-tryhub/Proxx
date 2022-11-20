@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub", "Proxx.Vlad.Tryhub\Proxx.Vlad.Tryhub.csproj", "{05C1FC93-294E-4786-988B-2AC95F4D00C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.Core", "Proxx.Vlad.Tryhub.Core\Proxx.Vlad.Tryhub.Core.csproj", "{0CEEF7B1-F981-45CC-8F38-7F22EC1EDBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.ConsoleDrawerUi", "Proxx.Vlad.Tryhub.ConsoleDrawerUi\Proxx.Vlad.Tryhub.ConsoleDrawerUi.csproj", "{A8823BD4-75FC-4B70-8183-3688BA27AF90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C1FC93-294E-4786-988B-2AC95F4D00C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C1FC93-294E-4786-988B-2AC95F4D00C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C1FC93-294E-4786-988B-2AC95F4D00C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C1FC93-294E-4786-988B-2AC95F4D00C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEEF7B1-F981-45CC-8F38-7F22EC1EDBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEEF7B1-F981-45CC-8F38-7F22EC1EDBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEEF7B1-F981-45CC-8F38-7F22EC1EDBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEEF7B1-F981-45CC-8F38-7F22EC1EDBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
