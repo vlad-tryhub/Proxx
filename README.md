@@ -16,3 +16,4 @@ Change game configuration in appsettings.json (or leave default) and start main 
     * a digit - opened cell
 * There are cases with multiple types inside one file. It was done consciously for convenience.
 * There are some TODOs left which I'm lazy to finish
+* The board size supports from 3x3 to 10x10 (inclusive)
