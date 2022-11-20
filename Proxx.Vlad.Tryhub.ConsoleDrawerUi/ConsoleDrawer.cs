@@ -4,6 +4,7 @@ namespace Proxx.Vlad.Tryhub.ConsoleDrawerUi;
 
 public interface IConsoleDrawer
 {
+    void PostMessage(string message);
     void DrawBoard(Cell[,] cells);
     (int x, int y) GetNextTurn(int length);
 }
@@ -14,6 +15,9 @@ public interface IConsoleDrawer
 /// </summary>
 public class ConsoleDrawer : IConsoleDrawer
 {
+    public void PostMessage(string message) =>
+        Console.WriteLine(message);
+        
     public void DrawBoard(Cell[,] cells)
     {
         var length = cells.GetLength(0);

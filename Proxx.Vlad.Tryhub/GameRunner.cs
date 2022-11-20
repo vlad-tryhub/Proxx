@@ -56,11 +56,11 @@ public class GameRunner : BackgroundService
         }
         catch (BoardInvalidSizeException e)
         {
-            Console.WriteLine(e.Message);
+            _consoleDrawer.PostMessage(e.Message);
         }
         catch (BoardHolesCountException e)
         {
-            Console.WriteLine(e.Message);
+            _consoleDrawer.PostMessage(e.Message);
         }
         
         _applicationLifetime.StopApplication();
