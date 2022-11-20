@@ -1,29 +1,18 @@
-# README #
+### General architecture idea
 
-This README would normally document whatever steps are necessary to get your application up and running.
+The solution contains 3 prjects
+* Executable console application
+* 'Core' project containing only domain logic
+* 'Console UI' project containing presentation logic
 
-### What is this repository for? ###
+### Usage
+Change game configuration in appsettings.json (or leave default) and start main porject
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Notes
+* Solution is build on dotnet 6
+* Game board signs:
+    * `?` - closed cell
+    * `X` - revealed black hole (lose)
+    * a digit - opened cell
+* There are cases with multiple types inside one file. It was done consciously for convenience.
+* There are some TODOs left which I'm lazy to finish
