@@ -1,5 +1,8 @@
-﻿namespace Proxx.Vlad.Tryhub.Core;
+﻿using System.Diagnostics;
 
+namespace Proxx.Vlad.Tryhub.Core;
+
+[DebuggerDisplay("Hole: {IsBlackHole}, opened: {IsOpened}, adjacent: {AdjacentHolesCount}")]
 public class Cell
 {
     public bool IsBlackHole { get; set; }

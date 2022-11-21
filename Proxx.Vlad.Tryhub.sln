@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.Core", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.ConsoleDrawerUi", "Proxx.Vlad.Tryhub.ConsoleDrawerUi\Proxx.Vlad.Tryhub.ConsoleDrawerUi.csproj", "{A8823BD4-75FC-4B70-8183-3688BA27AF90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7CB04F68-C209-410A-9163-191C48B0986A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.Tests", "Proxx.Vlad.Tryhub.Tests\Proxx.Vlad.Tryhub.Tests.csproj", "{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxx.Vlad.Tryhub.Core.Tests", "Proxx.Vlad.Tryhub.Core.Tests\Proxx.Vlad.Tryhub.Core.Tests.csproj", "{892AED62-744D-4CC0-8567-F94FC6A9749B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8823BD4-75FC-4B70-8183-3688BA27AF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892AED62-744D-4CC0-8567-F94FC6A9749B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892AED62-744D-4CC0-8567-F94FC6A9749B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892AED62-744D-4CC0-8567-F94FC6A9749B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892AED62-744D-4CC0-8567-F94FC6A9749B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC33A510-D2BB-454B-8DBA-6AD9119CF1EA} = {7CB04F68-C209-410A-9163-191C48B0986A}
+		{892AED62-744D-4CC0-8567-F94FC6A9749B} = {7CB04F68-C209-410A-9163-191C48B0986A}
 	EndGlobalSection
 EndGlobal
